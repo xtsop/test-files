@@ -1,0 +1,73 @@
+
+{
+	"buildFiles" : 
+	[
+		"/Users/xtsop/Development/android-ndk/hello-libs/app/src/main/cpp/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"/Users/xtsop/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/xtsop/Development/android-ndk/hello-libs/app/.externalNativeBuild/cmake/release/x86_64 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"crypto-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "crypto",
+			"buildType" : "release",
+			"output" : "/Users/xtsop/Development/android-ndk/hello-libs/app/src/main/cpp/../../../../distribution/openssl/lib/libcrypto.so",
+			"toolchain" : "5939527116030079004"
+		},
+		"hello-libs-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "hello-libs",
+			"buildCommand" : "/Users/xtsop/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/xtsop/Development/android-ndk/hello-libs/app/.externalNativeBuild/cmake/release/x86_64 --target hello-libs",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=/Users/xtsop/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/xtsop/Library/Android/sdk/ndk-bundle/sysroot  -Dhello_libs_EXPORTS -I/Users/xtsop/Development/android-ndk/hello-libs/app/src/main/cpp/../../../../distribution/gmath/include -I/Users/xtsop/Development/android-ndk/hello-libs/app/src/main/cpp/../../../../distribution/gperf/include -isystem /Users/xtsop/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/xtsop/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /Users/xtsop/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/xtsop/Library/Android/sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/xtsop/Development/android-ndk/hello-libs/app/src/main/cpp/hello-libs.cpp",
+					"workingDirectory" : "/Users/xtsop/Development/android-ndk/hello-libs/app/.externalNativeBuild/cmake/release/x86_64"
+				}
+			],
+			"output" : "/Users/xtsop/Development/android-ndk/hello-libs/app/build/intermediates/cmake/release/obj/x86_64/libhello-libs.so",
+			"toolchain" : "5939527116030079004"
+		},
+		"lib_gmath-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "lib_gmath",
+			"buildType" : "release",
+			"output" : "/Users/xtsop/Development/android-ndk/hello-libs/app/src/main/cpp/../../../../distribution/gmath/lib/x86_64/libgmath.a",
+			"toolchain" : "5939527116030079004"
+		},
+		"lib_gperf-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "lib_gperf",
+			"buildType" : "release",
+			"output" : "/Users/xtsop/Development/android-ndk/hello-libs/app/src/main/cpp/../../../../distribution/gperf/lib/x86_64/libgperf.so",
+			"toolchain" : "5939527116030079004"
+		},
+		"ssl-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "ssl",
+			"buildType" : "release",
+			"output" : "/Users/xtsop/Development/android-ndk/hello-libs/app/src/main/cpp/../../../../distribution/openssl/lib/libssl.so",
+			"toolchain" : "5939527116030079004"
+		}
+	},
+	"toolchains" : 
+	{
+		"5939527116030079004" : 
+		{
+			"cCompilerExecutable" : "/Users/xtsop/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/xtsop/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}

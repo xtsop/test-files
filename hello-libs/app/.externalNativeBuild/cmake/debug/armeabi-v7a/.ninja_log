@@ -1,0 +1,23 @@
+# ninja log v5
+0	247	0	CMakeFiles/hello-libs.dir/hello-libs.cpp.o	694b1dc5d3336533
+247	452	0	/Users/xtsop/Development/android-ndk/hello-libs/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libhello-libs.so	3f30c5df8bedf52a
+1	864	0	CMakeFiles/hello-libs.dir/hello-libs.cpp.o	694b1dc5d3336533
+864	1004	0	/Users/xtsop/Development/android-ndk/hello-libs/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libhello-libs.so	3f30c5df8bedf52a
+1	374	0	CMakeFiles/hello-libs.dir/hello-libs.cpp.o	694b1dc5d3336533
+374	542	0	/Users/xtsop/Development/android-ndk/hello-libs/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libhello-libs.so	3f30c5df8bedf52a
+1	339	0	CMakeFiles/hello-libs.dir/hello-libs.cpp.o	694b1dc5d3336533
+339	491	0	/Users/xtsop/Development/android-ndk/hello-libs/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libhello-libs.so	3f30c5df8bedf52a
+1	596	0	CMakeFiles/hello-libs.dir/hello-libs.cpp.o	694b1dc5d3336533
+597	824	0	/Users/xtsop/Development/android-ndk/hello-libs/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libhello-libs.so	3f30c5df8bedf52a
+1	457	0	CMakeFiles/hello-libs.dir/hello-libs.cpp.o	694b1dc5d3336533
+457	607	0	/Users/xtsop/Development/android-ndk/hello-libs/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libhello-libs.so	3f30c5df8bedf52a
+8	427	0	CMakeFiles/hello-libs.dir/hello-libs.cpp.o	694b1dc5d3336533
+427	577	0	/Users/xtsop/Development/android-ndk/hello-libs/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libhello-libs.so	3f30c5df8bedf52a
+4	379	0	CMakeFiles/hello-libs.dir/hello-libs.cpp.o	694b1dc5d3336533
+379	534	0	/Users/xtsop/Development/android-ndk/hello-libs/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libhello-libs.so	3f30c5df8bedf52a
+1	466	0	CMakeFiles/hello-libs.dir/hello-libs.cpp.o	694b1dc5d3336533
+466	659	0	/Users/xtsop/Development/android-ndk/hello-libs/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libhello-libs.so	3f30c5df8bedf52a
+8	459	0	CMakeFiles/hello-libs.dir/hello-libs.cpp.o	694b1dc5d3336533
+459	697	0	/Users/xtsop/Development/android-ndk/hello-libs/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libhello-libs.so	3f30c5df8bedf52a
+0	433	0	CMakeFiles/hello-libs.dir/hello-libs.cpp.o	694b1dc5d3336533
+433	604	0	/Users/xtsop/Development/android-ndk/hello-libs/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libhello-libs.so	3f30c5df8bedf52a

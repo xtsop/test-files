@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/xtsop/Development/android-ndk/hello-libs/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_narrow_custom.xml",
+        "source": "/Users/xtsop/.android/build-cache/75421b89824a6b8bd72cf2220823419eaab7e1fe/output/res/layout-v11/notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "/Users/xtsop/Development/android-ndk/hello-libs/app/build/intermediates/res/merged/debug/layout-v11/notification_media_cancel_action.xml",
+        "source": "/Users/xtsop/.android/build-cache/75421b89824a6b8bd72cf2220823419eaab7e1fe/output/res/layout-v11/notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/Users/xtsop/Development/android-ndk/hello-libs/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_narrow.xml",
+        "source": "/Users/xtsop/.android/build-cache/75421b89824a6b8bd72cf2220823419eaab7e1fe/output/res/layout-v11/notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "/Users/xtsop/Development/android-ndk/hello-libs/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_custom.xml",
+        "source": "/Users/xtsop/.android/build-cache/75421b89824a6b8bd72cf2220823419eaab7e1fe/output/res/layout-v11/notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "/Users/xtsop/Development/android-ndk/hello-libs/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media.xml",
+        "source": "/Users/xtsop/.android/build-cache/75421b89824a6b8bd72cf2220823419eaab7e1fe/output/res/layout-v11/notification_template_big_media.xml"
+    },
+    {
+        "merged": "/Users/xtsop/Development/android-ndk/hello-libs/app/build/intermediates/res/merged/debug/layout-v11/notification_media_action.xml",
+        "source": "/Users/xtsop/.android/build-cache/75421b89824a6b8bd72cf2220823419eaab7e1fe/output/res/layout-v11/notification_media_action.xml"
+    }
+]

@@ -1,0 +1,7 @@
+#Wed Jul 05 14:49:12 BST 2017
+base.0=/Users/xtsop/Development/android-ndk/hello-libs/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_062b1e43561db454f6a74e26b72023eac30a2214
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/Users/xtsop/Development/android-ndk/hello-libs/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_abd193f6791f85a49f5fe4542d3bee656a7fca55/classes.dex
+base.1=/Users/xtsop/Development/android-ndk/hello-libs/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_abd193f6791f85a49f5fe4542d3bee656a7fca55
+file.0=/Users/xtsop/Development/android-ndk/hello-libs/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_062b1e43561db454f6a74e26b72023eac30a2214/classes.dex

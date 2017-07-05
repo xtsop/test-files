@@ -1,0 +1,73 @@
+
+{
+	"buildFiles" : 
+	[
+		"/Users/xtsop/Development/android-ndk/hello-libs/app/src/main/cpp/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"/Users/xtsop/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/xtsop/Development/android-ndk/hello-libs/app/.externalNativeBuild/cmake/release/armeabi-v7a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"hello-libs-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "hello-libs",
+			"buildCommand" : "/Users/xtsop/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/xtsop/Development/android-ndk/hello-libs/app/.externalNativeBuild/cmake/release/armeabi-v7a --target hello-libs",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/Users/xtsop/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/xtsop/Library/Android/sdk/ndk-bundle/sysroot  -Dhello_libs_EXPORTS -I/Users/xtsop/Development/android-ndk/hello-libs/app/src/main/cpp/../../../../distribution/gmath/include -I/Users/xtsop/Development/android-ndk/hello-libs/app/src/main/cpp/../../../../distribution/gperf/include -I/Users/xtsop/Development/android-ndk/hello-libs/app/src/main/cpp/../../../../distribution/openssl/include -isystem /Users/xtsop/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/xtsop/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/xtsop/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/xtsop/Library/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/xtsop/Development/android-ndk/hello-libs/app/src/main/cpp/hello-libs.cpp",
+					"workingDirectory" : "/Users/xtsop/Development/android-ndk/hello-libs/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+				}
+			],
+			"output" : "/Users/xtsop/Development/android-ndk/hello-libs/app/build/intermediates/cmake/release/obj/armeabi-v7a/libhello-libs.so",
+			"toolchain" : "5939527116030079004"
+		},
+		"lib_crypto-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "lib_crypto",
+			"buildType" : "release",
+			"output" : "/Users/xtsop/Development/android-ndk/hello-libs/app/src/main/cpp/../../../../distribution/openssl/lib/armeabi-v7a/libcrypto_1_0_0.so",
+			"toolchain" : "5939527116030079004"
+		},
+		"lib_gmath-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "lib_gmath",
+			"buildType" : "release",
+			"output" : "/Users/xtsop/Development/android-ndk/hello-libs/app/src/main/cpp/../../../../distribution/gmath/lib/armeabi-v7a/libgmath.a",
+			"toolchain" : "5939527116030079004"
+		},
+		"lib_gperf-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "lib_gperf",
+			"buildType" : "release",
+			"output" : "/Users/xtsop/Development/android-ndk/hello-libs/app/src/main/cpp/../../../../distribution/gperf/lib/armeabi-v7a/libgperf.so",
+			"toolchain" : "5939527116030079004"
+		},
+		"lib_ssl-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "lib_ssl",
+			"buildType" : "release",
+			"output" : "/Users/xtsop/Development/android-ndk/hello-libs/app/src/main/cpp/../../../../distribution/openssl/lib/armeabi-v7a/libssl_1_0_0.so",
+			"toolchain" : "5939527116030079004"
+		}
+	},
+	"toolchains" : 
+	{
+		"5939527116030079004" : 
+		{
+			"cCompilerExecutable" : "/Users/xtsop/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/xtsop/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}

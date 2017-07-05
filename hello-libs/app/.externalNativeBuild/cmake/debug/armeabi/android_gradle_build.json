@@ -1,0 +1,73 @@
+
+{
+	"buildFiles" : 
+	[
+		"/Users/xtsop/Development/android-ndk/hello-libs/app/src/main/cpp/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"/Users/xtsop/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/xtsop/Development/android-ndk/hello-libs/app/.externalNativeBuild/cmake/debug/armeabi --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"crypto-Debug-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "crypto",
+			"buildType" : "debug",
+			"output" : "/Users/xtsop/Development/android-ndk/hello-libs/app/src/main/cpp/../../../../distribution/openssl/lib/libcrypto.so",
+			"toolchain" : "5939527116030079004"
+		},
+		"hello-libs-Debug-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "hello-libs",
+			"buildCommand" : "/Users/xtsop/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/xtsop/Development/android-ndk/hello-libs/app/.externalNativeBuild/cmake/debug/armeabi --target hello-libs",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/Users/xtsop/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/xtsop/Library/Android/sdk/ndk-bundle/sysroot  -Dhello_libs_EXPORTS -I/Users/xtsop/Development/android-ndk/hello-libs/app/src/main/cpp/../../../../distribution/gmath/include -I/Users/xtsop/Development/android-ndk/hello-libs/app/src/main/cpp/../../../../distribution/gperf/include -isystem /Users/xtsop/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/xtsop/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /Users/xtsop/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/xtsop/Library/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/xtsop/Development/android-ndk/hello-libs/app/src/main/cpp/hello-libs.cpp",
+					"workingDirectory" : "/Users/xtsop/Development/android-ndk/hello-libs/app/.externalNativeBuild/cmake/debug/armeabi"
+				}
+			],
+			"output" : "/Users/xtsop/Development/android-ndk/hello-libs/app/build/intermediates/cmake/debug/obj/armeabi/libhello-libs.so",
+			"toolchain" : "5939527116030079004"
+		},
+		"lib_gmath-Debug-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "lib_gmath",
+			"buildType" : "debug",
+			"output" : "/Users/xtsop/Development/android-ndk/hello-libs/app/src/main/cpp/../../../../distribution/gmath/lib/armeabi/libgmath.a",
+			"toolchain" : "5939527116030079004"
+		},
+		"lib_gperf-Debug-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "lib_gperf",
+			"buildType" : "debug",
+			"output" : "/Users/xtsop/Development/android-ndk/hello-libs/app/src/main/cpp/../../../../distribution/gperf/lib/armeabi/libgperf.so",
+			"toolchain" : "5939527116030079004"
+		},
+		"ssl-Debug-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "ssl",
+			"buildType" : "debug",
+			"output" : "/Users/xtsop/Development/android-ndk/hello-libs/app/src/main/cpp/../../../../distribution/openssl/lib/libssl.so",
+			"toolchain" : "5939527116030079004"
+		}
+	},
+	"toolchains" : 
+	{
+		"5939527116030079004" : 
+		{
+			"cCompilerExecutable" : "/Users/xtsop/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/xtsop/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/xtsop/Development/android-ndk/hello-libs/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Users/xtsop/.android/build-cache/75421b89824a6b8bd72cf2220823419eaab7e1fe/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "/Users/xtsop/Development/android-ndk/hello-libs/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/Users/xtsop/.android/build-cache/75421b89824a6b8bd72cf2220823419eaab7e1fe/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    }
+]
