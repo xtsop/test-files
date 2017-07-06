@@ -17,9 +17,9 @@ add_library(lib_crypto SHARED IMPORTED)
 set_target_properties(lib_crypto PROPERTIES IMPORTED_LOCATION
     ${distribution_DIR}/openssl/lib/${ANDROID_ABI}/libcrypto_1_0_0.so)
 
-add_library(lib_ssl SHARED IMPORTED)
+add_library(lib_ssl STATIC IMPORTED)
 set_target_properties(lib_ssl PROPERTIES IMPORTED_LOCATION
-    ${distribution_DIR}/openssl/lib/${ANDROID_ABI}/libssl_1_0_0.so)
+    ${distribution_DIR}/openssl/lib/${ANDROID_ABI}/libssl.a)
 
 # build application's shared lib
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=gnu++11")

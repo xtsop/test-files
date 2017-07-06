@@ -45,6 +45,9 @@ dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     compile 'com.android.support:appcompat-v7:25.2.0'
     compile 'com.android.support.constraint:constraint-layout:1.0.1'
+    compile 'com.google.code.gson:gson:1.7.2'
+    compile 'com.squareup.retrofit:retrofit:1.1.0'
+    compile 'org.bouncycastle:bcprov-jdk15on:1.47'
     // uncomment out this one to generate lib binaries,
     // and also uncommented out the one in settings.gradle
     // after lib is generated, just comment them out again

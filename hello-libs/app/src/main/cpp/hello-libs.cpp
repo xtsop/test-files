@@ -67,6 +67,7 @@ Java_com_example_hellolibs_MainActivity_doCryptOps(JNIEnv *env, jobject thiz) {
         LOGI("Decryption successful\n");
     } else {
         LOGE("Decryption failed\n");
+        return -1;
     }
 
     if (crypto_ctx && dkey) {

@@ -58,7 +58,7 @@
 			"abi" : "x86",
 			"artifactName" : "lib_ssl",
 			"buildType" : "release",
-			"output" : "/Users/xtsop/Development/android-ndk/hello-libs/app/src/main/cpp/../../../../distribution/openssl/lib/x86/libssl_1_0_0.so",
+			"output" : "/Users/xtsop/Development/android-ndk/hello-libs/app/src/main/cpp/../../../../distribution/openssl/lib/x86/libssl.a",
 			"toolchain" : "5939527116030079004"
 		}
 	},
